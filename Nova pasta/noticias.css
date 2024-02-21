@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'MONKEY';
+    src: url(MONKEY.otf);
+}
+:root{
+    --cor1: black ;
+    --cor2: #260f01;
+    --cor3: #401E01 ;
+    --cor4: #8C4E03;
+    --cor5: #D99A25;
+    --cor6: #F2DC6D;
+    
+    --fonte-peso1: 'MONKEY';
+    --fonte-peso2: "Happy Monkey", system-ui;
+    --fonte-peso3: "Inria Sans", sans-serif;
+}
+body{
+    font-size: 1em;
+    background-color: rgb(148, 148, 148);
+    text-align: justify;   
+}
+h1{
+    color: aliceblue;
+    font-family: var(--fonte-peso1);
+    font-size: 5em;
+    text-shadow: #D99A25 1px;
+    letter-spacing: 2px;
+}
+h2, h3{
+        font-family: var(--fonte-peso2);
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding: 5px 0px;
+      
+      
+}
+p{ 
+    font-family: var(--fonte-peso3);
+    font-weight: 300;
+    font-style: normal;
+    padding: 5px 15px;
+    margin: 2px 5px;
+}
+header{
+    box-sizing: border-box;
+    background-position-y: fixed;
+    overflow: hidden;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border:10px #260f01 ;
+    box-shadow: #401e016b 3px;
+    margin: 0;
+    border-bottom: 1px solid #faa236;  
+    scroll-behavior: smooth; 
+    }
+#pheader{
+    color: aliceblue;
+    padding: 1px 10px -15px;
+    margin: 0px;
+}
+
+nav{
+    display: block;
+    color: #ffffff;
+    border-top: 1px solid #faa236;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 0px;
+    background-color: #000000;
+    
+}
+nav > a{
+    background-color: #000000;
+    color: white;
+    text-shadow:2px #8C4E03 ;
+    border: 2px #8C4E03;
+    border-radius: 15px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+nav > a:hover{
+    transition: 1s;
+    background-color:#8C4E03;
+    color: #fcfcfc;
+    
+    
+}
+main{
+    display: block;
+    align-items: center;
+    background-color:rgb(219, 216, 216);
+    border: #260f01 2px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: auto;
+    box-shadow: 0px 0px 5px#2a1904dc;
+    margin-bottom: 10px;
+    min-width: 320px;
+    max-width: 800px;
+
+}
+.video-box{
+    max-width: 700px;
+    margin: auto;
+}
+.video{
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+    
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+
+footer{
+ width: 100%;   
+ background-color: black;
+ display: block;
+ color: white;
+ text-align: center;
+ margin-top: 100%;
+ 
+}
+button{
+    background-color: black;
+    border-radius: 50%;
+}
