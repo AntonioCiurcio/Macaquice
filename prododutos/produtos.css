@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    align-items: center;
-    text-align: center;
 }
 @font-face {
     font-family: 'MONKEY';
@@ -33,13 +31,12 @@ h1{
     letter-spacing: 2px;
     text-shadow: 1px solid #260f01;
 }
-h2, h3, h4{
+h2, h3{
         font-family: var(--fonte-peso2);
         font-weight: 400;
         font-style: normal;
         text-align: center;
-        padding: 5px 0px;
-        text-transform: uppercase;      
+        padding: 5px 0px;      
 }
 p{ 
     font-family: var(--fonte-peso3);
@@ -51,6 +48,7 @@ p{
 a{
     text-decoration: none;
     text-transform: uppercase;
+    text-decoration-color: white;
 }
 header{
     display: block;
@@ -123,15 +121,19 @@ main{
     flex-direction: column;
 
 }
+article{
+    text-align: center;
+}
 .listadepremios{
     display: flex;
     flex-direction: column;
-    flex-flow: column wrap;
-    margin: 0px 2px;
-    width: 100%;
-    text-align: center;
+    align-items: center;
+    row-gap: 1px;
+    margin: 15px;
+    
     
 }
+
 .premiocard{
     background-color: rgba(255, 255, 255, 0.432);
     border: 1px solid rgba(0, 0, 0, 0.106);
@@ -147,7 +149,15 @@ main{
     box-shadow: inset;
     
 }
-
+.cardnaovacila{
+    background-color: #000000;
+    color: white;
+    margin-bottom: 5px;
+    border: 2px solid #D99A25;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
 footer{
     display: flex;
     ;

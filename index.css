@@ -171,13 +171,14 @@ div.conteudoduplo > aside{
 }
 
 footer{
-    display: flex;
-    ;
+    display: block;
  width: 100%;   
  background-color: black;
  display: block;
  color: white;
  margin-top: 100%;
+ text-align: center;
+ align-items: center;
   
 }
 button{
