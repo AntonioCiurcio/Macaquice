@@ -45,6 +45,10 @@ p{
     padding: 5px 15px;
     margin: 2px 5px;
 }
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
 header{
     display: block;
     box-sizing: border-box;
