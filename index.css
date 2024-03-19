@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 @font-face {
     font-family: 'MONKEY';
@@ -128,6 +129,7 @@ main{
     margin-bottom: 10px;
     min-width: 320px;
     max-width: 800px;
+    box-sizing: border-box;
    
 
 }
